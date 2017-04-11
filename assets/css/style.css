@@ -1,6 +1,94 @@
-body{
-	background-color: green;
+*{
+	box-sizing: border-box;
 }
-header {
+
+body{
+	background: url(https://raw.githubusercontent.com/akiacanada/basicPortfolio/master/assets/images/concrete_seamless/concrete_seamless.png);
+	margin:0;
+}
+
+#fixed {
+	margin:0;
+	background-color:#ffffff;	
+}
+
+header{
+	margin: 0;
+    background-color: #ffffff;
+    width: 60%;
+    float: left;
+}
+
+.name {
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 25%;
+    padding: 10px;
+    margin: 0px 0px 0px 127px;
+}
+
+nav{
+	color: #777777;
+    width: 40%;
+    float: left;
+    background: #ffffff;
+}
+
+#about{
+    float: left;
+    padding: 15px;
+}
+
+#portfolio{
+    float: left;
+    padding: 15px;
+}
+
+#contact{
+    float: left;
+    padding: 15px;
+}
+
+#background{
+	clear: both;
+    padding: 8px;
 
 }
+
+.container{
+    width: 500px;
+    margin: 10px 0 10px 120px;
+    background: #ffffff;
+    float: left;
+}
+
+.desc{
+	color: #4aaaa5;
+    padding: 25px 10px 0px 20px;
+}
+
+#bio-image{
+	float: left;
+    padding: 0 10px;
+}
+
+p{
+	padding: 10px
+}
+
+aside{
+	float: right;
+	background: #ffffff;
+    margin: 0;
+}
+
+h3{
+	color: #4aaaa5;
+}
+
+footer{
+	clear: both;
+
+}
+
+
