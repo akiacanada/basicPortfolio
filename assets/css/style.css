@@ -41,6 +41,18 @@ nav{
     border-width: 0 0 .3px 0;
 }
 
+#github{
+	width: 50px
+}
+
+#linkedin{
+	width: 50px
+}
+
+#stack{
+	width: 50px
+}
+
 #about{
     float: left;
     padding: 15px;
@@ -152,11 +164,4 @@ footer{
     border-left-width: 0;
     border-right-width: 0;
     background: #666666;
-}
-
-<!-- contact sheet specific styling-->
-
-#contactme {
-	color: #4aaaa5;
-    padding: 25px 10px 0px 20px;
 }
