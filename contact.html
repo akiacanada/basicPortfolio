@@ -4,13 +4,14 @@
 	<title>The Portfolio</title>
 <!--add in correct style sheet link -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
 
 <div id="fixed">
 
 	<header>
-		<h1>Akia Canada</h1>
+		<h2 class="name">Akia Canada</h1>
 	</header>
 	<nav>
 	
@@ -22,23 +23,32 @@
 
 </div>
 <div id="background">
-	<!-- About Me Container -->
+	<!-- Contact Me Container -->
 	<section class="container">
 		<!--heading-->
-		<h1>Contact</h1>
+		<h2 id="contactme">Contact</h2>
 		
-		
+		<form action="/action_page.php">
+  		Name<br>
+  		<input type="text" name= "fullname" placeholder="Jean Luc Picard"><br>
+  		Email<br>
+  		<input type="text" name="email" placeholder="professorx@xmen.com"><br>
+  		Message<br>
+  		<textarea name="message" placeholder= "How Can I help You?" rows="10" cols="60"> </textarea>
+  		<br>
+  		<input id="submit" type="submit" value="Submit">
+		</form>
 
 	</section> 
 	
 	<!-- social media icon box -->
 	<aside>
-		<h2>Contact Me With</h2>
-		<<img src="http://placehold.it/200x200" alt="github" id="github">>
-		
-		<<img src="http://placehold.it/200x200" alt="linkedin" id="linkedin">>
+		<h3>Connect with Me</h3>
+		<img src="http://placehold.it/66x66" alt="github" id="github">
+	
+		<img src="http://placehold.it/66x66" alt="linkedin" id="linkedin">
 
-		<<img src="http://placehold.it/200x200" alt="stackoverflow" id="stack">>
+		<img src="http://placehold.it/66x66" alt="stackoverflow" id="stack">
 	</aside>
 
 	<footer>
