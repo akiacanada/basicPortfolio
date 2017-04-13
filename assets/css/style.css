@@ -96,6 +96,9 @@ nav{
     float: left;
     padding: 0 0px;
     margin: 17px 10px 5px 10px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: .3px;
 }
 
 #contactme {
